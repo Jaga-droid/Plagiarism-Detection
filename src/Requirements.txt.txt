@@ -1,0 +1,7 @@
+1. numpy
+2. pandas
+3. spacy
+4. scikitlearn
+5. tensorflow
+6. pyPDF
+7. seaborn
