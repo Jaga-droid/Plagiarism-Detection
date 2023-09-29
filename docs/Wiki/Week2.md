@@ -1,3 +1,12 @@
+# Week 2
+
+Tasks
+- [x] Meet suprevisor
+- [ ] Project motivation
+
+
+----
+
 # Project Planning and Kickoff
 
 Objective of Project: To detect potential instances of plagiarism in a document and provide insight
@@ -19,11 +28,9 @@ Evaluation Metrics:
 
 ## Turnitin : 
 
-        .Uses text matching to compare submitted papers against a vast database of academic and web sources. 
-
-        .Similarity score indicates the percentage of text that matches other sources.
-
-        . If a string of 3 words is matched with its repository it gets flagged as plagiarism. Word match length can be modified.
+* Uses text matching to compare submitted papers against a vast database of academic and web sources. 
+* Similarity **score** indicates the percentage of text that matches other sources.
+* If a string of 3 words is matched with its repository it gets flagged as plagiarism. Word match length can be modified.
 
 
 ### Drawbacks of Turnitin : 
