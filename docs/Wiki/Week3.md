@@ -1,5 +1,12 @@
 # Week 3
 
+- [x] Lit Rev
+- [ ] Notes
+- [ ] Update github
+- [ ] Overleaf template
+
+
+
 ## Literature Review
 
 1. Readability Formula
