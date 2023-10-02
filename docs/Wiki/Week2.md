@@ -35,12 +35,14 @@ Evaluation Metrics:
 
 ### Drawbacks of Turnitin : 
      
-      . Largely based on string matching algorithms which can be unreliable without considering the context in which the words were used. This can lead to false positives
+* Largely based on string matching algorithms which can be unreliable without considering the context in which the words were used. This can lead to false positives
 
-      . Not the best at detecting text written by tools such as conch.ai, meaning there are also false negatives.
+* Not the best at detecting text written by tools such as conch.ai, meaning there are also false negatives.
 
 ### Programming Language Used : 
-       . Python
+ 
+* Python
 
 ### Tools Required : 
-       . Streamlit( To deploy a shareable website for the AI detection tool)
+
+* Streamlit( To deploy a shareable website for the AI detection tool)
