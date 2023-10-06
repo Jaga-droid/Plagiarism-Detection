@@ -1,9 +1,9 @@
 # Week 3
 
 - [x] Lit Rev
-- [ ] Notes
-- [ ] Update github
-- [ ] Overleaf template
+- [X] Notes
+- [X] Update github
+- [X] Overleaf template
 
 
 
