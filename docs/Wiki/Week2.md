@@ -1,8 +1,8 @@
 # Week 2
 
 Tasks
-- [x] Meet supervisor
-- [ ] Project motivation
+- [X] Meet supervisor
+- [X] Project motivation
 
 
 ----

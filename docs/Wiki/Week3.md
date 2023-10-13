@@ -1,6 +1,6 @@
 # Week 3
 
-- [x] Lit Rev
+- [X] Lit Rev
 - [X] Notes
 - [X] Update github
 - [X] Overleaf template
@@ -17,7 +17,7 @@ Link : https://ieeexplore.ieee.org/document/6449109
 
 Gist : 
 
-Reading grade level = 0.39 (words/sentence) + 11.8 (syllables/word) -15.59 
+- Reading grade level = 0.39 (words/sentence) + 11.8 (syllables/word) -15.59 
 
 
 We determine readability of text using two aspects :
@@ -34,11 +34,11 @@ Link : https://arxiv.org/abs/1909.09962
 
 Gist : 
 
-. Pre-training a Transformer-based language model on a large dataset using the MLM(Masked Language Modelling) that acts as a base which is then cascaded into an encoder-decoder framework.
+- Pre-training a Transformer-based language model on a large dataset using the MLM(Masked Language Modelling) that acts as a base which is then cascaded into an encoder-decoder framework.
 
-. Fine-tuning on author-specific corpus using denoising auto encoders loss to enable stylized rewriting.
+- Fine-tuning on author-specific corpus using denoising auto encoders loss to enable stylized rewriting.
 
-. The idea is to use MLM to capture the style of the author and check it against their latest submission to see if it was human-generated or not.
+- The idea is to use MLM to capture the style of the author and check it against their latest submission to see if it was human-generated or not.
 
 
 3. Watermark : 
@@ -50,13 +50,13 @@ Link : https://arxiv.org/pdf/2301.10226.pdf
 
 Gist : 
 
-. A watermark is a hidden pattern in text that is imperceptible to humans, while making the text algorithmically identifiable as synthetic.
+- A watermark is a hidden pattern in text that is imperceptible to humans, while making the text algorithmically identifiable as synthetic.
 
-. Describe a simple “hard” red list watermark that is easy to analyze and detect. 
+- Describe a simple “hard” red list watermark that is easy to analyze and detect. 
 
-. Apply language model to tokens to get Probability vector over the vocabulary and compute a hash of one token using which you partition the vocabulary into a "green list" and a "red list" of equal size. 
+- Apply language model to tokens to get Probability vector over the vocabulary and compute a hash of one token using which you partition the vocabulary into a "green list" and a "red list" of equal size. 
 
-.The simplicity of this approach comes at thecost of poor generation quality on low entropy sequences.
+-The simplicity of this approach comes at thecost of poor generation quality on low entropy sequences.
 
 
 4. Software Similarity : 
@@ -69,9 +69,9 @@ Link : https://www.researchgate.net/publication/338785728_Syntax_Trees_and_Infor
 
 Gist : 
 
-. Generate the syntax trees of program code files, extracts directly connected n-gram structure tokens from them, and performs the subsequent comparisons using an algorithm from information retrieval, cosine correlation in the vector space model. 
+- Generate the syntax trees of program code files, extracts directly connected n-gram structure tokens from them, and performs the subsequent comparisons using an algorithm from information retrieval, cosine correlation in the vector space model. 
 
-. Evaluation of the approach shows that consideration of the program structure  increases the recall and f-score  at the cost of execution time. 
+- Evaluation of the approach shows that consideration of the program structure  increases the recall and f-score  at the cost of execution time. 
 
 
 (b) Graph based approach
@@ -83,4 +83,42 @@ Link : https://researchgate.net/publication/347732336_Flowchart-Based_Cross-Lang
 
 Gist : 
  
-. Uses Dependency graphs and Control flow graphs to determine similarities between 2 programs.
+-  Uses Dependency graphs and Control flow graphs to determine similarities between 2 programs.
+
+
+(c) Winnowing approach 
+
+Link : http://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf
+
+Gist : 
+
+- By doing the following :
+           1. Hashing
+           2. Sliding window
+      we attempt to create a unique fingerprint for the entire piece of code.
+
+- We then use Jaccard's similarity co-efficient to calculate similarity between the two source code.(intersection over union)
+
+
+5. Hyperbole in text :
+
+Link : https://www.sciencedirect.com/science/article/pii/S1319157822000210
+
+Gist :
+
+
+- We need to extract the following hyperbole features namely 
+      
+      1. Capital letters
+      2. Intensifiers
+      3. Interjections
+      4. Punctuation marks 
+      5. Elongated words 
+
+    using a python script and manually verify it.
+
+- Exaggeration in responses could be a possible indicator of plagiarism especially when a bot is asked to write about a person as it might even claim a certain character trait of a person to be true when reality says otherwise.
+
+
+
+
