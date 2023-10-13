@@ -1,7 +1,7 @@
 # Week 5
 
-- [] Get more training examples.
-- [] Refine the StyleLM approach.
+- [ ] Get more training examples.
+- [ ] Refine the StyleLM approach.
 - [X] Explore detecting hyperbole in text as a possible indicator of plagiarism.
 
 ## Notes 

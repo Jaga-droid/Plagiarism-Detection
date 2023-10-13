@@ -1,10 +1,10 @@
 # Week 6
 
-- [] Gather more data for StyleLM training
+- [ ] Gather more data for StyleLM training
 
-- [] Draft sample abstract
+- [ ] Draft sample abstract
 
-- [] Draft structure of Literature Review
+- [ ] Draft structure of Literature Review
 
 
 Note :

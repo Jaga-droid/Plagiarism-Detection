@@ -1,10 +1,10 @@
 # Week 7
 
-- [] Refine abstract and get feedback
+- [ ] Refine abstract and get feedback
 
-- [] Consolidate structure of Literature Review
+- [ ] Consolidate structure of Literature Review
 
-- [] Work on Methodologies and Ethics form
+- [ ] Work on Methodologies and Ethics form
 
 
 Note :
