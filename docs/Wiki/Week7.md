@@ -19,7 +19,7 @@ Methodologies Blueprint :
     5.1 Bias-Variance Trade-off
  6. Model Optimisation
  7. Model Validation and Deployment
-
+----------------------------------------------
  1. Data Acquisition : 
    - Talk about where we obtain data from 
            a. Human responses
