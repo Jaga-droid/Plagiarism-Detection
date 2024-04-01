@@ -8,3 +8,5 @@
 8. nltk
 9. transformers
 10. collections
+11. openAI
+12. WandB
