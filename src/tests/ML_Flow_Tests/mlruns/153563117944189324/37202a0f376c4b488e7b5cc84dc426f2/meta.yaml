@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Jagatheesh/OneDrive/Desktop/Heriot_Watt_University_Msc_Data_Science/F21MP_Dissertation/Plagiarism-Detection/src/tests/ML_Flow_Tests/mlruns/153563117944189324/37202a0f376c4b488e7b5cc84dc426f2/artifacts
+deleted_time: 1713151805938
+end_time: 1713150617625
+entry_point_name: ''
+experiment_id: '153563117944189324'
+lifecycle_stage: deleted
+run_id: 37202a0f376c4b488e7b5cc84dc426f2
+run_name: SupportVectorMachines
+run_uuid: 37202a0f376c4b488e7b5cc84dc426f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713149255466
+status: 4
+tags: []
+user_id: Jagatheesh

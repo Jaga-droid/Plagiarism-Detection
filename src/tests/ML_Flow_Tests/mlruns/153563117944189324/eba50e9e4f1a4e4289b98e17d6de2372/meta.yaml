@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Jagatheesh/OneDrive/Desktop/Heriot_Watt_University_Msc_Data_Science/F21MP_Dissertation/Plagiarism-Detection/src/tests/ML_Flow_Tests/mlruns/153563117944189324/eba50e9e4f1a4e4289b98e17d6de2372/artifacts
+deleted_time: 1713121296914
+end_time: 1713113490393
+entry_point_name: ''
+experiment_id: '153563117944189324'
+lifecycle_stage: deleted
+run_id: eba50e9e4f1a4e4289b98e17d6de2372
+run_name: LogisticRegression
+run_uuid: eba50e9e4f1a4e4289b98e17d6de2372
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713113490202
+status: 4
+tags: []
+user_id: Jagatheesh
